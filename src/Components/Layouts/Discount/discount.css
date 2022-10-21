@@ -1,0 +1,49 @@
+.DRootHolder {
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discountHolder {
+  margin-top: 0px;
+  background-color: #ffe585;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+
+  padding: 0 30px;
+}
+.dTitle {
+  text-transform: capitalize;
+}
+
+.redeem {
+  font-weight: 200;
+}
+.code {
+  font-weight: 700;
+}
+
+.hthree {
+  color: black;
+}
+.buynow {
+  border: none;
+  background-color: black;
+  color: white;
+  height: 60px;
+  width: 180px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .discountHolder {
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+  }
+}

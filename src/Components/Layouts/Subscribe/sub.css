@@ -1,0 +1,58 @@
+.sRooter {
+  height: 85vh;
+}
+
+.sHolder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.simager {
+  width: 70%;
+}
+.sImg {
+  width: 100%;
+}
+.stexter {
+  width: 100%;
+}
+.sHeading {
+  font-size: 40px;
+}
+.inputerr {
+  margin: 15px 0;
+  padding: 10px 10px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .sRooter {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sHolder {
+    display: block;
+    text-align: center;
+  }
+  .simager {
+    width: 100%;
+  }
+  .sHeading {
+    font-size: 35px;
+  }
+  .inputerr {
+    margin: 15px 0;
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .s-btn {
+    width: 100%;
+    font-weight: 700;
+  }
+}

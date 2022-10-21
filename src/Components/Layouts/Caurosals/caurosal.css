@@ -1,0 +1,50 @@
+.cHolder {
+  padding: 10px 5px;
+  gap: 30px;
+}
+
+.innerHolder {
+  padding: 20px 40px;
+  background-color: #2e2e2e;
+  color: white;
+  border-radius: 5px;
+}
+.cImager {
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.cTexter {
+  width: 100%;
+  height: 100%;
+}
+.Cimg {
+  width: 80px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.cname {
+  font-size: 25px;
+  font-weight: 600;
+}
+.Cpara {
+  font-size: 13px;
+}
+
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+  font-size: 50px;
+  background-color: black;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}

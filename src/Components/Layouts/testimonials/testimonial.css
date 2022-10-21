@@ -1,0 +1,32 @@
+.Testimonialas {
+  height: 60vh;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.tTexter {
+  width: 100%;
+}
+.tCaurosals {
+  width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .tTexter {
+    width: 100%;
+  }
+  .tCaurosals {
+    width: 100%;
+  }
+}

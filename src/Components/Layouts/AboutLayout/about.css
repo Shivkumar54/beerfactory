@@ -1,0 +1,35 @@
+.abouts {
+  margin-top: 120px;
+  text-align: center;
+}
+.AHeading {
+  margin-bottom: 50px;
+}
+
+.aImg {
+  width: 50px;
+  margin-bottom: 15px;
+
+}
+.aTitle {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .abouts {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .AHeading {
+    margin-bottom: 30px;
+  }
+
+  .aImg {
+    width: 30px;
+    margin-bottom: 10px;
+  }
+  .aTitle {
+    font-weight: 700;
+    font-size: 11px;
+  }
+}
